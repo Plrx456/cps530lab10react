@@ -7,8 +7,7 @@
 </head>
 <body>
     <h1>React Web Page with Vite and Bootstrap</h1>
-    <p>This project demonstrates how to create a simple React web page using Vite for fast development and Bootstrap for styling.</p>
-    
+    <p>This project demonstrates how to create a simple React web page using Vite for fast development and Bootstrap for styling.</p>    
     <h2>Installation</h2>
     <ol>
         <li>Clone the repository:</li>
@@ -19,20 +18,17 @@
         <pre><code>npm install</code></pre>
         <li>Start the development server:</li>
         <pre><code>npm run dev</code></pre>
-    </ol>
-    
+    </ol>    
     <h2>Features</h2>
     <ul>
         <li>React-based web page setup using Vite.</li>
         <li>Styled using Bootstrap for a responsive design.</li>
         <li>Sections explaining the setup process, challenges, and solutions.</li>
-    </ul>
-    
+    </ul>    
     <h2>Challenges and Solutions</h2>
     <p>
         The project faced some challenges, including understanding Vite's structure and resolving browser refresh issues.
         These were solved by consulting documentation and restarting the development server as needed.
-    </p>
-    
+    </p>    
 </body>
 </html>
