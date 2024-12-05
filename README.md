@@ -1,7 +1,4 @@
 
-<head>
-    <title>React Web Page</title>
-</head>
 <body>
     <h1>React Web Page with Vite and Bootstrap</h1>
     <p>This project demonstrates how to create a simple React web page using Vite for fast development and Bootstrap for styling.</p>    
