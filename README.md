@@ -1,6 +1,3 @@
-# React Web Page with Vite and Bootstrap
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
