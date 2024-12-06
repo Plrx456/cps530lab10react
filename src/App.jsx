@@ -4,17 +4,14 @@ const App = () => {
   return (
     <div className="container my-5">
       <header className="text-center mb-5">
-        <h1 className="display-4">Building a React Web Page with Vite</h1>
-        <p className="lead text-muted">
-          Learn how to set up React with Vite and style it using Bootstrap.
-        </p>
+        <h1 className="display-4">Building a Web Page with React and Vite</h1>
       </header>
 
       <main>
         <section className="mb-4">
           <h2 className="h4">Installation Process</h2>
           <p>
-            To create this project, I used <strong>Vite</strong> for a fast and efficient React setup. Here are the steps I followed:
+            To create this project, I used Vite for the React setup. This is what I did.
           </p>
           <ul className="list-group">
             <li className="list-group-item">Installed Vite using <code>npm create vite@latest my-react-app</code>.</li>
@@ -27,15 +24,15 @@ const App = () => {
         <section className="mb-4">
           <h2 className="h4">How the Page Was Built</h2>
           <p>
-            I edited the <code>App.jsx</code> file to include sections explaining the process of installation, building the page, and troubleshooting.
+            Edited the <code>App.jsx</code> file to have information about how to setup this webpage and issues that arrised. 
           </p>
           <p>
-            I used Bootstrap's grid system and utility classes for styling, making the page responsive and visually appealing.
+            I used Bootstrap's grid system and utility classes for style points and straight up responsiveness. 
           </p>
         </section>
 
         <section className="mb-4">
-          <h2 className="h4">Challenges and Solutions</h2>
+          <h2 className="h4">Challenges</h2>
           <div className="accordion" id="challengesAccordion">
             <div className="accordion-item">
               <h3 className="accordion-header" id="headingOne">
@@ -57,7 +54,7 @@ const App = () => {
                 data-bs-parent="#challengesAccordion"
               >
                 <div className="accordion-body">
-                  I initially misunderstood the setup process. Referring to the Vite documentation solved the issue.
+                  The initial process took some understanding and trial and error, the documentation made the process slightly better.
                 </div>
               </div>
             </div>
@@ -82,7 +79,7 @@ const App = () => {
                 data-bs-parent="#challengesAccordion"
               >
                 <div className="accordion-body">
-                  Understanding the `src` directory took time. I explored online resources to grasp it better.
+                  It was not intuitive (to me atleast) for the main page to be in a src folder, again through playing around i figured it out.
                 </div>
               </div>
             </div>
@@ -107,7 +104,7 @@ const App = () => {
                 data-bs-parent="#challengesAccordion"
               >
                 <div className="accordion-body">
-                  Restarting the server fixed the issue when the browser didn't refresh after code changes.
+                  Being used to HTML it was confusing when refreshing the page did not change even though I updated the code. Restarting the connection fixed it.
                 </div>
               </div>
             </div>
@@ -117,7 +114,7 @@ const App = () => {
 
       <footer className="text-center mt-5">
         <p className="text-muted">
-          © 2024 Lab 10 Cps 530 | Built with React, Vite, and Bootstrap
+          CPS530 Lab10 Sarthak Pradhan (Copy at your own risk) | Built with React, Vite, and Bootstrap
         </p>
       </footer>
     </div>
